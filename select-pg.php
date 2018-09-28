@@ -39,7 +39,7 @@ include ("conexion-pg.php");
   <nav aria-label="..." style="padding-left: 5%;">
     <ul class="pagination">
       <li class="page-item">
-        <a class="page-link" href="index-pg.php" tabindex="-1">Agregar Libro</a>
+        <a class="page-link" href="index.php" tabindex="-1">Agregar Libro</a>
       </li>
       <li class="page-item active disabled"><a class="page-link" href="select-pg.php">Libros</a></li>
       <li class="page-item">
