@@ -21,7 +21,7 @@ include ("conexion-pg.php");
 		<nav aria-label="..." style="padding-left: 5%;">
       <ul class="pagination">
         <li class="page-item active disabled">
-          <a class="page-link" href="index-pg.php" tabindex="-1">Agregar Libro</a>
+          <a class="page-link" href="index.php" tabindex="-1">Agregar Libro</a>
         </li>
         <li class="page-item"><a class="page-link" href="select-pg.php">Libros</a></li>
         <li class="page-item">
@@ -34,7 +34,7 @@ include ("conexion-pg.php");
 			<form action="insert-pg.php" method="POST" id="form-libro" name="form-libro">
 			  <div class="form-group">
 			    <label for="titulo">Título del libro:</label>
-			    <input type="text" class="form-control" name="titulo" placeholder="Titulo" data-validation="length alphanumeric required" data-validation-length="min1" data-validation-error-msg-container="#errorTitulo">
+			    <input type="text" class="form-control" name="titulo" placeholder="Titulo" data-validation="length alphanumeric required" data-validation-length="min4" data-validation-error-msg-container="#errorTitulo">
           <div id="errorTitulo" class="alert alert-danger" role="alert"> Debe ingresar un título válido.</div>
         </div>
 
