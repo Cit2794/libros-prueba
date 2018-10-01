@@ -1,12 +1,9 @@
 <?php
-
-    $host="127.0.0.1";
-    $port="5432";
-    $user="userp01";
-    $pass="Ocampo:27";
-    $dbname="dbpractica01"; //prac01
-
+    $host="libros-prueba-mysqldbserver.mysql.database.azure.com";
+   // $port="5432";
+    $user="mysqldbuser@libros-prueba-mysqldbserver";
+    $pass="Passpruebas123";
+    $dbname="mysqldatabase27673";
 	$con = mysqli_connect( $host, $user, $pass ) or die ("No se ha podido conectar al servidor de Base de datos");
   $db = mysqli_select_db( $con, $dbname ) or die ( "Upps! Pues va a ser que no se ha podido conectar a la base de datos" );
-
 ?>
