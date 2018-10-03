@@ -15,7 +15,7 @@ include ("conexion-mysql.php");
 
 		<div class="jumbotron" style="background-color: #21CAA0; color: white;">
 		  <h1 class="display-4">¡LIBROS!</h1>
-		  <p class="lead">Inserta un autor nuevo.</p>
+		  <p class="lead">Ingresa un autor nuevo.</p>
 		</div>
 
     <nav aria-label="..." style="padding-left: 5%;">
